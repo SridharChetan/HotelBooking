@@ -5,16 +5,60 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/list.css'>
     <script src='main.js'></script>
 </head>
 <body>
 <div>
     <div id="headerdiv">
-        <img src="/assests/images/logo.png" alt="logo" style="height:100px;width: 150px;"><br>
-        Header Div</div>
-    <div id="contentdiv">Content Div</div>
-    <div id="footerdiv">Footer Div</div>
+        <img src="/assests/images/logo.png" alt="logo" style="height:100px;width: 150px;">
+        <a href="/login.html" target="_self">Login</a>    
+    </div>
+    <div id="contentdiv">
+        <div>
+            <ul>
+                <li> <a href="/list.html"> List View </a> </li>
+                <li> <a href="/list.html"> Map View </a> </li>
+            </ul>
+        </div>
+        <div id="hotelList">
+            <div> 
+                <a href="/detail.html" target="_self">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="radisson">
+                <h2>Radisson Blue Hotel</h2>
+                <h4>5 Star</h4>
+                <h4>New Delhi</h4>
+                </a>
+            </div>
+            <div>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="Lalit Delhi">
+                <h2>The Lalit New Delhi</h2>
+                <h4>4.5 Star</h4>
+                <h4>New Delhi</h4>
+            </div>
+            <div>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="Taj Palace">
+                <h2>Taj Palace</h2>
+                <h4>4.0 Star</h4>
+                <h4>New Delhi</h4>
+            </div>
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="Map Image">  
+                <h4>Map View</h4>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="footerdiv"> 
+        <div><a href="/contact.html" target="_blank">Contact Us</a></div>        
+        <div>
+            <a  href="http://facebook.com" target="_blank"><img class="imglogo" src="/assests/images/facebook.png"></a>
+            <a  href="http://instagram.com" target="_blank"><img class="imglogo" src="/assests/images/instagram.png"></a> 
+            <a  href="http://twitter.com" target="_blank"><img  class="imglogo" src="/assests/images/twitter.png"></a> 
+        </div>
+        &copy; 2020 ROOM SEARCH PVT LTD.
+    </div>
 </div>
 </body>
 </html>
