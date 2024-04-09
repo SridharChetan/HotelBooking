@@ -1,17 +1,13 @@
-html, body {
-    min-height: 100%;
-} 
-.smlogo {
-    align-items: left;
-    width:22px;
-    height:20px;
-  }
-  .logoImg{
-    height: 60px;;
-    width: 60px;
-    border-radius: 50%;
-}
 .hotelImg{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
+}
+.contentMain{
+background-color: rgb(132,136,139);
+width: 50%;
+height: 20%;
+margin-top: 2%;
+margin-left: 25%;
+margin-bottom: 2%;
+justify-content: center;
 }

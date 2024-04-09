@@ -1,5 +1,6 @@
 html, body {
     min-height: 100%;
+    margin: 0;
 }
 .logoImg{
     height: 60px;;
@@ -14,5 +15,13 @@ html, body {
   .hotelImg{
     height: 250px;
     width: 250px;
-  }
-  
+    background-color:  rgb(132,136,139);
+}
+.contentdiv{
+    margin: 1%;
+}
+.hotelItem{
+    background-color:rgb(132,136,139);
+    width: 40%;
+    margin:1%;
+}

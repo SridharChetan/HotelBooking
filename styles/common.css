@@ -1,0 +1,31 @@
+html, body {
+    min-height: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+.footerDiv{
+    background-color: rosybrown;
+  }
+  .headerdiv{
+    background-color: rosybrown;
+  }
+  .smlogo {
+    align-items: left;
+    width:22px;
+    height:20px;
+  }
+
+  .logoImg{
+    height: 60px;;
+    width: 60px;
+    border-radius: 50%;
+}
+.loader {
+    width: 70px;
+    height: 70px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid  #444444;
+    border-top-color:#f3f3f3;
+  }

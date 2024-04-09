@@ -6,7 +6,7 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href="./styles/index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href="./styles/common.css">
     <script src='main.js'></script>
 </head>
 <body>
@@ -16,24 +16,24 @@
         <a href="/login.html" target="_self">Login</a><br>
    </header>
     <div id="contentdiv">
-        <div id="searchDiv">
+        <div class="searchDiv">
             <input type="text" id="search" name="city" placeholder="City" style="margin: 25px;"> 
         </div>
-        <div class="d-flex flex-row bd-highlight mb-3">
-            <div class="p-2 bd-highlight"> <a href="/list.html" target="_self"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="NewDelhi Image"></a></div>
-            <div class="p-2 bd-highlight"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa Image"></div>
-            <div class="p-2 bd-highlight"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="charminar Image"></div>
-            <div class="p-2 bd-highlight"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="kolkata-calcutta Image"></div>
+        <div class="flex-container">
+            <div class="flexCol"> <a href="/list.html" target="_self"><img class="imageRadius" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="NewDelhi Image"></a></div>
+            <div class="flexCol"> <img class="imageRadius" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa Image"></div>
+            <div class="flexCol"> <img class="imageRadius" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="charminar Image"></div>
+            <div class="flexCol"> <img class="imageRadius" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="kolkata-calcutta Image"></div>
         </div>
         <br>
         <div><a href="#">View More>></a></div>
     </div>
-    <footer class="trademark">
+    <footer class="footerDiv">
         <div><a href="/contact.html" target="_self">Contact Us</a></div>        
         <div>
-            <a  href="http://facebook.com" target="_blank"><img class="imglogo" src="/assests/images/facebook.png"></a>
-            <a  href="http://instagram.com" target="_blank"><img class="imglogo" src="/assests/images/instagram.png"></a> 
-            <a  href="http://twitter.com" target="_blank"><img  class="imglogo" src="/assests/images/twitter.png"></a> 
+            <a  href="http://facebook.com" target="_blank"><img class="smlogo" src="/assests/images/facebook.png"></a>
+            <a  href="http://instagram.com" target="_blank"><img class="smlogo" src="/assests/images/instagram.png"></a> 
+            <a  href="http://twitter.com" target="_blank"><img  class="smlogo" src="/assests/images/twitter.png"></a> 
         </div>
         &copy; 2020 ROOM SEARCH PVT LTD.
    </footer>
