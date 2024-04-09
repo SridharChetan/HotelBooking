@@ -1,3 +1,14 @@
+html, body {
+    min-height: 100%;
+}
+
+
+.logoImg{
+    height: 60px;;
+    width: 60px;
+    border-radius: 50%;
+}
+
 .imagesContainerDiv {
    display: flex;
    align-items: center; 

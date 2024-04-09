@@ -6,28 +6,29 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href="./styles/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src='main.js'></script>
 </head>
 <body>
 <div>
-    <div id="headerdiv">
-        <img src="/assests/images/logo.png" alt="logo" style="height:100px;width: 150px;">
+   <header class="headerdiv">
+        <img class="logoImg" src="/assests/images/logo.png" alt="logo"">
         <a href="/login.html" target="_self">Login</a><br>
-    </div>
+   </header>
     <div id="contentdiv">
         <div id="searchDiv">
-            <input type="text" id="search" name="city" placeholder="City"> 
+            <input type="text" id="search" name="city" placeholder="City" style="margin: 25px;"> 
         </div>
-        <div class="imagesContainerDiv">
-            <div class="indeximages"> <a href="/list.html" target="_self"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="NewDelhi Image"></a></div>
-            <div class="indeximages"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa Image"></div>
-            <div class="indeximages"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="charminar Image"></div>
-            <div class="indeximages"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="kolkata-calcutta Image"></div>
+        <div class="d-flex flex-row bd-highlight mb-3">
+            <div class="p-2 bd-highlight"> <a href="/list.html" target="_self"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="NewDelhi Image"></a></div>
+            <div class="p-2 bd-highlight"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa Image"></div>
+            <div class="p-2 bd-highlight"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="charminar Image"></div>
+            <div class="p-2 bd-highlight"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="kolkata-calcutta Image"></div>
         </div>
         <br>
         <div><a href="#">View More>></a></div>
     </div>
-    <div class="footerdiv"> 
+    <footer class="trademark">
         <div><a href="/contact.html" target="_self">Contact Us</a></div>        
         <div>
             <a  href="http://facebook.com" target="_blank"><img class="imglogo" src="/assests/images/facebook.png"></a>
@@ -35,7 +36,7 @@
             <a  href="http://twitter.com" target="_blank"><img  class="imglogo" src="/assests/images/twitter.png"></a> 
         </div>
         &copy; 2020 ROOM SEARCH PVT LTD.
-    </div>
+   </footer>
 </div>
 </body>
 </html>

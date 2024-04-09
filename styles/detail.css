@@ -1,5 +1,18 @@
-.imglogo {
+html, body {
+    min-height: 100%;
+}
+.smlogo {
     align-items: left;
     width:22px;
     height:20px;
   }
+
+  .logoImg{
+    height: 60px;;
+    width: 60px;
+    border-radius: 50%;
+}
+.hotelImg{
+height: 500px;
+width: 500px;
+}
